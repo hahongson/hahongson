@@ -154,6 +154,7 @@ int main(){
     order(root);
     //DFS(root);
     printf("\n=============\n");
+    printf("toi muon thay doi tai day.\n");
     deleteNode(&root, 15);
     deleteNode(&root, 7);
     deleteNode(&root, 10);
@@ -161,3 +162,17 @@ int main(){
     freeTree(&root);
     order(root);
 }
+
+
+/*
+        GIT
+    $ git init
+    $ git add <file>
+    $ git status
+    $ git commit
+    $ git push
+    $ git pull
+    $ git clone
+
+
+*/
